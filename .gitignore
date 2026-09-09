@@ -30,3 +30,6 @@ __pycache__/
 *.pyc
 .venv/
 .env
+
+# the variable codebook is metadata, not respondent data: keep it
+!codebook/variable_codebook.csv

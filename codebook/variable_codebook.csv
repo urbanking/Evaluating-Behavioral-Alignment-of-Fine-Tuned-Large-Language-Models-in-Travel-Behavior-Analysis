@@ -1,0 +1,1111 @@
+﻿변수명,변수설명,variable_description_en,보기설명,option_description_en,비고,note_en
+IDX,survey version ID,Survey version ID,,,,
+Quality_Check,"품질확인(1=정상,0=불량)","Quality check (1=valid, 0=invalid)","(0)불량
+(1)정상","(0)Invalid
+(1)Valid",,
+block_ID,block ID,Block ID,"(1)Block01
+(2)Block02
+(3)Block03
+(4)Block04
+(5)Block05
+(6)Block06
+(7)Block07
+(8)Block08
+(9)Block09
+(10)Block10
+(11)Block11
+(12)Block12","(1)Block01
+(2)Block02
+(3)Block03
+(4)Block04
+(5)Block05
+(6)Block06
+(7)Block07
+(8)Block08
+(9)Block09
+(10)Block10
+(11)Block11
+(12)Block12",,
+BR,BASIC/RISK,BASIC/RISK,"(1)BASIC
+(2)RISK","(1)BASIC
+(2)RISK",,
+Ran,설문유형,Survey version type,"(1)Block01_BASIC
+(2)Block01_RISK
+(3)Block02_BASIC
+(4)Block02_RISK
+(5)Block03_BASIC
+(6)Block03_RISK
+(7)Block04_BASIC
+(8)Block04_RISK
+(9)Block05_BASIC
+(10)Block05_RISK
+(11)Block06_BASIC
+(12)Block06_RISK
+(13)Block07_BASIC
+(14)Block07_RISK
+(15)Block08_BASIC
+(16)Block08_RISK
+(17)Block09_BASIC
+(18)Block09_RISK
+(19)Block10_BASIC
+(20)Block10_RISK
+(21)Block11_BASIC
+(22)Block11_RISK
+(23)Block12_BASIC
+(24)Block12_RISK","(1)Block01_BASIC
+(2)Block01_RISK
+(3)Block02_BASIC
+(4)Block02_RISK
+(5)Block03_BASIC
+(6)Block03_RISK
+(7)Block04_BASIC
+(8)Block04_RISK
+(9)Block05_BASIC
+(10)Block05_RISK
+(11)Block06_BASIC
+(12)Block06_RISK
+(13)Block07_BASIC
+(14)Block07_RISK
+(15)Block08_BASIC
+(16)Block08_RISK
+(17)Block09_BASIC
+(18)Block09_RISK
+(19)Block10_BASIC
+(20)Block10_RISK
+(21)Block11_BASIC
+(22)Block11_RISK
+(23)Block12_BASIC
+(24)Block12_RISK",,
+SQ1,SQ1.현재 거주하고 계신 지역을 선택해 주세요.-시도코드,SQ1. Please select your current residential area - province/metropolitan city code,"(1)서울
+(2)부산
+(3)대구
+(4)인천
+(5)광주
+(6)대전
+(7)울산
+(8)세종
+(9)경기
+(10)강원
+(11)충북
+(12)충남
+(13)전북
+(14)전남
+(15)경북
+(16)경남
+(17)제주","(1)Seoul
+(2)Busan
+(3)Daegu
+(4)Incheon
+(5)Gwangju
+(6)Daejeon
+(7)Ulsan
+(8)Sejong
+(9)Gyeonggi
+(10)Gangwon
+(11)Chungbuk
+(12)Chungnam
+(13)Jeonbuk
+(14)Jeonnam
+(15)Gyeongbuk
+(16)Gyeongnam
+(17)Jeju",,
+SQ1_1,SQ1.현재 거주하고 계신 지역을 선택해 주세요.-시도,SQ1. Please select your current residential area - province/metropolitan city,,,,
+SQ1_2,SQ1.현재 거주하고 계신 지역을 선택해 주세요.-시군구,SQ1. Please select your current residential area - city/county/district,,,,
+SQ1_3,SQ1.현재 거주하고 계신 지역을 선택해 주세요.-읍면동,SQ1. Please select your current residential area - eup/myeon/dong neighborhood,,,,
+SQ2,SQ2.성별은 무엇입니까?,SQ2. What is your gender?,"(1)남성
+(2)여성","(1)Male
+(2)Female",,
+SQ3,SQ3.만 나이는 어떻게 되십니까?[단위:세],SQ3. What is your age in full years? [unit: years],,,,
+SQ4,SQ4.최근 1개월 내 수도권(서울·경기·인천)에서 정기적인 출근·통학·업무 통행 혹은 정기적인 이동이나 외출을 한 경험이 있습니까?,"SQ4. In the last month, have you made regular commute/school/work trips or regular travel/outing in the Seoul Capital Area (Seoul, Gyeonggi, Incheon)?","(1)예
+(2)아니오","(1)Yes
+(2)No",,
+SQ5,SQ5.평일 오전 시간대에 출근·통학·업무 이동 혹은 이동이나 외출을 정기적으로 하십니까?,SQ5. Do you regularly make commute/school/work trips or regular travel/outing during weekday morning hours?,"(1)주 4회 이상
+(2)주 2-3회
+(3)주 1회 이하
+(4)해당 없음","(1)Four or more times per week
+(2)Two to three times per week
+(3)Once per week or less
+(4)Not applicable",,
+QQ1,문1.본인의 평소 평일 오전 통행은 주로 어떤 목적의 이동입니까?,Q1. What is the main purpose of your usual weekday morning trip?,"(1)출근
+(2)통학
+(3)기타","(1)Commute to work
+(2)Commute to school
+(3)Other",,
+TQQ1_3,문1.본인의 평소 평일 오전 통행은 주로 어떤 목적의 이동입니까?-기타내용,Q1. Other text for main purpose of your usual weekday morning trip,,,,
+QQ1A,문1-1.평소 출발 지역은 어디입니까?-시도코드,Q1-1. Where is your usual origin area? - province/metropolitan city code,"(1)서울
+(4)인천
+(9)경기","(1)Seoul
+(4)Incheon
+(9)Gyeonggi",,
+QQ1A_1,문1-1.평소 출발 지역은 어디입니까?-시도,Q1-1. Where is your usual origin area? - province/metropolitan city,,,,
+QQ1A_2,문1-1.평소 출발 지역은 어디입니까?-시군구,Q1-1. Where is your usual origin area? - city/county/district,,,,
+QQ1A_3,문1-1.평소 출발 지역은 어디입니까?-읍면동,Q1-1. Where is your usual origin area? - eup/myeon/dong neighborhood,,,,
+QQ1B,문1-2.평소 도착 지역은 어디입니까?-시도코드,Q1-2. Where is your usual destination area? - province/metropolitan city code,"(1)서울
+(4)인천
+(9)경기","(1)Seoul
+(4)Incheon
+(9)Gyeonggi",,
+QQ1B_1,문1-2.평소 도착 지역은 어디입니까?-시도,Q1-2. Where is your usual destination area? - province/metropolitan city,,,,
+QQ1B_2,문1-2.평소 도착 지역은 어디입니까?-시군구,Q1-2. Where is your usual destination area? - city/county/district,,,,
+QQ1B_3,문1-2.평소 도착 지역은 어디입니까?-읍면동,Q1-2. Where is your usual destination area? - eup/myeon/dong neighborhood,,,,
+QQ2_1,문2.그 통행에서 평소 출발 시각과 목적지 도착 시각은 언제입니까?-출발,Q2. What are your usual departure and arrival times for that trip? - departure,,,,
+QQ2_2,문2.그 통행에서 평소 출발 시각과 목적지 도착 시각은 언제입니까?-도착,Q2. What are your usual departure and arrival times for that trip? - arrival,,,,
+QQ3,문3.그 평일 오전 통행의 총 소요시간은 어느 정도입니까?,Q3. How long does that weekday morning one-way trip usually take in total?,"(1)15분 미만
+(2)15-35분 미만
+(3)35-70분 미만
+(4)70분 이상","(1)Less than 15 minutes
+(2)15 to less than 35 minutes
+(3)35 to less than 70 minutes
+(4)70 minutes or more",,
+TQQ3_4,문3.그 평일 오전 통행의 총 소요시간은 어느 정도입니까?-70분이상[단위:분],Q3. Total duration for that weekday morning trip - 70 minutes or more [unit: minutes],,,,
+QQ4,문4.그 통행에서 본인이 직접 지불하는 편도 1회 비용은 어느 정도입니까?,Q4. How much do you personally pay for that one-way trip?,"(1)없음
+(2)1천원 미만
+(3)1천원~2천원 미만
+(4)2천원~5천원 미만
+(5)5천원 이상","(1)None
+(2)Less than KRW 1,000
+(3)KRW 1,000 to less than 2,000
+(4)KRW 2,000 to less than 5,000
+(5)KRW 5,000 or more",,
+TQQ4_5,문4.그 통행에서 본인이 직접 지불하는 편도 1회 비용은 어느 정도입니까?-5천원 이상[단위:천원],"Q4. One-way out-of-pocket cost - KRW 5,000 or more [unit: thousand KRW]",,,,
+QQ5,문5.그 통행에서 가장 자주 이용하는 교통수단은 무엇입니까?,Q5. Which mode do you use most often for that trip?,"(1)대중교통
+(2)일반 자동차
+(3)개인형 이동수단(PM)
+(4)도보
+(5)택시·호출차량
+(6)기타","(1)Public transit
+(2)General car
+(3)Personal mobility (PM)
+(4)Walking
+(5)Taxi/ride-hailing
+(6)Other",,
+TQQ5_6,문5.그 통행에서 가장 자주 이용하는 교통수단은 무엇입니까?-기타내용,Q5. Other text for mode used most often for that trip,,,,
+QQ6,문6.그 수단을 주로 이용하는 가장 큰 이유는 무엇입니까?,Q6. What is the main reason you usually use that mode?,"(1)시간
+(2)비용
+(3)편의성
+(4)습관
+(5)다른 대안이 마땅치 않아서
+(6)기타","(1)Time
+(2)Cost
+(3)Convenience
+(4)Habit
+(5)No suitable alternative
+(6)Other",,
+TQQ6_6,문6.그 수단을 주로 이용하는 가장 큰 이유는 무엇입니까?-기타내용,Q6. Other text for main reason for using that mode,,,,
+QQ7,"문7.그 통행은 보통 혼자 합니까, 아니면 누군가와 함께 합니까?",Q7. Do you usually make that trip alone or with someone else?,"(1)혼자
+(2)가족과 함께
+(3)동료·친구와 함께
+(4)기타","(1)Alone
+(2)With family
+(3)With coworkers/friends
+(4)Other",,
+TQQ7_4,"문7.그 통행은 보통 혼자 합니까, 아니면 누군가와 함께 합니까?-기타내용",Q7. Other text for whether you usually travel alone or with someone else,,,,
+Q1A,1.가까운 동네 이동(약 0.5-2km)-Q1.2026년 현재 시점(자율주행차 없음) 이용수단,Nearby neighborhood trip (approx. 0.5-2 km) - Q1. Mode used under the 2026 current condition (without driverless AV),"(1)대중교통
+(2)일반자동차
+(3)개인형 이동수단
+(4)도보","(1)Public transit
+(2)General car
+(3)Personal mobility
+(4)Walking",,
+Q1B_1,1.가까운 동네 이동(약 0.5-2km)-Q2.[고려요인]위 표에서 선택한 수단을 고를 때 고려한 요인을 최대 3개까지 선택해 주세요.-1순위,"Nearby neighborhood trip (approx. 0.5-2 km) - Q2. Factors considered when choosing the selected mode, up to three factors - rank 1","(1)시간
+(2)비용
+(3)대기·접근·환승
+(4)혼잡·쾌적성
+(5)운전·주차·피로 부담
+(6)익숙한 수단
+(7)기타","(1)Time
+(2)Cost
+(3)Waiting/access/transfers
+(4)Crowding/comfort
+(5)Driving/parking/fatigue burden
+(6)Familiar mode
+(7)Other",,
+Q1B_2,1.가까운 동네 이동(약 0.5-2km)-Q2.[고려요인]위 표에서 선택한 수단을 고를 때 고려한 요인을 최대 3개까지 선택해 주세요.-2순위,"Nearby neighborhood trip (approx. 0.5-2 km) - Q2. Factors considered when choosing the selected mode, up to three factors - rank 2","(1)시간
+(2)비용
+(3)대기·접근·환승
+(4)혼잡·쾌적성
+(5)운전·주차·피로 부담
+(6)익숙한 수단
+(7)기타","(1)Time
+(2)Cost
+(3)Waiting/access/transfers
+(4)Crowding/comfort
+(5)Driving/parking/fatigue burden
+(6)Familiar mode
+(7)Other",,
+Q1B_3,1.가까운 동네 이동(약 0.5-2km)-Q2.[고려요인]위 표에서 선택한 수단을 고를 때 고려한 요인을 최대 3개까지 선택해 주세요.-3순위,"Nearby neighborhood trip (approx. 0.5-2 km) - Q2. Factors considered when choosing the selected mode, up to three factors - rank 3","(1)시간
+(2)비용
+(3)대기·접근·환승
+(4)혼잡·쾌적성
+(5)운전·주차·피로 부담
+(6)익숙한 수단
+(7)기타","(1)Time
+(2)Cost
+(3)Waiting/access/transfers
+(4)Crowding/comfort
+(5)Driving/parking/fatigue burden
+(6)Familiar mode
+(7)Other",,
+TQ1B_7,1.가까운 동네 이동(약 0.5-2km)-Q2.[고려요인]위 표에서 선택한 수단을 고를 때 고려한 요인을 최대 3개까지 선택해 주세요.-기타내용,Nearby neighborhood trip (approx. 0.5-2 km) - Q2. Other text for factors considered,,,,
+Q1C,1.가까운 동네 이동(약 0.5-2km)-Q3.2030년 미래 시점(자율주행 호출 서비스 도입)이용수단,Nearby neighborhood trip (approx. 0.5-2 km) - Q3. Mode used under the 2030 future condition (with driverless AV ride-hailing),"(1)대중교통
+(2)일반자동차
+(3)개인형 이동수단
+(4)도보
+(5)자율주행차(호출형)","(1)Public transit
+(2)General car
+(3)Personal mobility
+(4)Walking
+(5)Driverless AV ride-hailing",,
+Q1D_1,"1.가까운 동네 이동(약 0.5-2km)-Q4.[AV 선택 이유]2030년 조건에서 자율주행차를 선택한 경우, 선택할 때 고려한 요인을 최대 3개까지 선택해 주세요.-1순위","Nearby neighborhood trip (approx. 0.5-2 km) - Q4. Factors considered when choosing driverless AV under the 2030 condition, up to three factors - rank 1","(1)시간
+(2)비용
+(3)운전·주차 부담
+(4)이동 중 휴식·업무
+(5)안정성
+(6)새 서비스 호기심
+(7)기타","(1)Time
+(2)Cost
+(3)Driving/parking burden
+(4)Rest/work during the trip
+(5)Service stability
+(6)Curiosity about a new service
+(7)Other",,
+Q1D_2,"1.가까운 동네 이동(약 0.5-2km)-Q4.[AV 선택 이유]2030년 조건에서 자율주행차를 선택한 경우, 선택할 때 고려한 요인을 최대 3개까지 선택해 주세요.-2순위","Nearby neighborhood trip (approx. 0.5-2 km) - Q4. Factors considered when choosing driverless AV under the 2030 condition, up to three factors - rank 2","(1)시간
+(2)비용
+(3)운전·주차 부담
+(4)이동 중 휴식·업무
+(5)안정성
+(6)새 서비스 호기심
+(7)기타","(1)Time
+(2)Cost
+(3)Driving/parking burden
+(4)Rest/work during the trip
+(5)Service stability
+(6)Curiosity about a new service
+(7)Other",,
+Q1D_3,"1.가까운 동네 이동(약 0.5-2km)-Q4.[AV 선택 이유]2030년 조건에서 자율주행차를 선택한 경우, 선택할 때 고려한 요인을 최대 3개까지 선택해 주세요.-3순위","Nearby neighborhood trip (approx. 0.5-2 km) - Q4. Factors considered when choosing driverless AV under the 2030 condition, up to three factors - rank 3","(1)시간
+(2)비용
+(3)운전·주차 부담
+(4)이동 중 휴식·업무
+(5)안정성
+(6)새 서비스 호기심
+(7)기타","(1)Time
+(2)Cost
+(3)Driving/parking burden
+(4)Rest/work during the trip
+(5)Service stability
+(6)Curiosity about a new service
+(7)Other",,
+TQ1D_7,"1.가까운 동네 이동(약 0.5-2km)-Q4.[AV 선택 이유]2030년 조건에서 자율주행차를 선택한 경우, 선택할 때 고려한 요인을 최대 3개까지 선택해 주세요.-기타내용",Nearby neighborhood trip (approx. 0.5-2 km) - Q4. Other text for factors considered when choosing driverless AV,,,,
+Q1E,"1.가까운 동네 이동(약 0.5-2km)-Q5.[이용일수]자율주행차를 선택한 경우, 비슷한 평일 통행 5일 중 며칠 이용할 것 같습니까?","Nearby neighborhood trip (approx. 0.5-2 km) - Q5. If choosing driverless AV, expected number of weekdays used out of five similar weekday trips","(1)1일
+(2)2일
+(3)3일
+(4)4일
+(5)5일","(1)1 day(s)
+(2)2 day(s)
+(3)3 day(s)
+(4)4 day(s)
+(5)5 day(s)",,
+Q2A,2.가까운 생활권 이동(약 2-4km)-Q1.2026년 현재 시점(자율주행차 없음) 이용수단,Nearby activity-area trip (approx. 2-4 km) - Q1. Mode used under the 2026 current condition (without driverless AV),"(1)대중교통
+(2)일반자동차
+(3)개인형 이동수단
+(4)도보","(1)Public transit
+(2)General car
+(3)Personal mobility
+(4)Walking",,
+Q2B_1,2.가까운 생활권 이동(약 2-4km)-Q2.[고려요인]위 표에서 선택한 수단을 고를 때 고려한 요인을 최대 3개까지 선택해 주세요.-1순위,"Nearby activity-area trip (approx. 2-4 km) - Q2. Factors considered when choosing the selected mode, up to three factors - rank 1","(1)시간
+(2)비용
+(3)대기·접근·환승
+(4)혼잡·쾌적성
+(5)운전·주차·피로 부담
+(6)익숙한 수단
+(7)기타","(1)Time
+(2)Cost
+(3)Waiting/access/transfers
+(4)Crowding/comfort
+(5)Driving/parking/fatigue burden
+(6)Familiar mode
+(7)Other",,
+Q2B_2,2.가까운 생활권 이동(약 2-4km)-Q2.[고려요인]위 표에서 선택한 수단을 고를 때 고려한 요인을 최대 3개까지 선택해 주세요.-2순위,"Nearby activity-area trip (approx. 2-4 km) - Q2. Factors considered when choosing the selected mode, up to three factors - rank 2","(1)시간
+(2)비용
+(3)대기·접근·환승
+(4)혼잡·쾌적성
+(5)운전·주차·피로 부담
+(6)익숙한 수단
+(7)기타","(1)Time
+(2)Cost
+(3)Waiting/access/transfers
+(4)Crowding/comfort
+(5)Driving/parking/fatigue burden
+(6)Familiar mode
+(7)Other",,
+Q2B_3,2.가까운 생활권 이동(약 2-4km)-Q2.[고려요인]위 표에서 선택한 수단을 고를 때 고려한 요인을 최대 3개까지 선택해 주세요.-3순위,"Nearby activity-area trip (approx. 2-4 km) - Q2. Factors considered when choosing the selected mode, up to three factors - rank 3","(1)시간
+(2)비용
+(3)대기·접근·환승
+(4)혼잡·쾌적성
+(5)운전·주차·피로 부담
+(6)익숙한 수단
+(7)기타","(1)Time
+(2)Cost
+(3)Waiting/access/transfers
+(4)Crowding/comfort
+(5)Driving/parking/fatigue burden
+(6)Familiar mode
+(7)Other",,
+TQ2B_7,2.가까운 생활권 이동(약 2-4km)-Q2.[고려요인]위 표에서 선택한 수단을 고를 때 고려한 요인을 최대 3개까지 선택해 주세요.-기타내용,Nearby activity-area trip (approx. 2-4 km) - Q2. Other text for factors considered,,,,
+Q2C,2.가까운 생활권 이동(약 2-4km)-Q3.2030년 미래 시점(자율주행 호출 서비스 도입)이용수단,Nearby activity-area trip (approx. 2-4 km) - Q3. Mode used under the 2030 future condition (with driverless AV ride-hailing),"(1)대중교통
+(2)일반자동차
+(3)개인형 이동수단
+(4)도보
+(5)자율주행차(호출형)","(1)Public transit
+(2)General car
+(3)Personal mobility
+(4)Walking
+(5)Driverless AV ride-hailing",,
+Q2D_1,"2.가까운 생활권 이동(약 2-4km)-Q4.[AV 선택 이유]2030년 조건에서 자율주행차를 선택한 경우, 선택할 때 고려한 요인을 최대 3개까지 선택해 주세요.-1순위","Nearby activity-area trip (approx. 2-4 km) - Q4. Factors considered when choosing driverless AV under the 2030 condition, up to three factors - rank 1","(1)시간
+(2)비용
+(3)운전·주차 부담
+(4)이동 중 휴식·업무
+(5)안정성
+(6)새 서비스 호기심
+(7)기타","(1)Time
+(2)Cost
+(3)Driving/parking burden
+(4)Rest/work during the trip
+(5)Service stability
+(6)Curiosity about a new service
+(7)Other",,
+Q2D_2,"2.가까운 생활권 이동(약 2-4km)-Q4.[AV 선택 이유]2030년 조건에서 자율주행차를 선택한 경우, 선택할 때 고려한 요인을 최대 3개까지 선택해 주세요.-2순위","Nearby activity-area trip (approx. 2-4 km) - Q4. Factors considered when choosing driverless AV under the 2030 condition, up to three factors - rank 2","(1)시간
+(2)비용
+(3)운전·주차 부담
+(4)이동 중 휴식·업무
+(5)안정성
+(6)새 서비스 호기심
+(7)기타","(1)Time
+(2)Cost
+(3)Driving/parking burden
+(4)Rest/work during the trip
+(5)Service stability
+(6)Curiosity about a new service
+(7)Other",,
+Q2D_3,"2.가까운 생활권 이동(약 2-4km)-Q4.[AV 선택 이유]2030년 조건에서 자율주행차를 선택한 경우, 선택할 때 고려한 요인을 최대 3개까지 선택해 주세요.-3순위","Nearby activity-area trip (approx. 2-4 km) - Q4. Factors considered when choosing driverless AV under the 2030 condition, up to three factors - rank 3","(1)시간
+(2)비용
+(3)운전·주차 부담
+(4)이동 중 휴식·업무
+(5)안정성
+(6)새 서비스 호기심
+(7)기타","(1)Time
+(2)Cost
+(3)Driving/parking burden
+(4)Rest/work during the trip
+(5)Service stability
+(6)Curiosity about a new service
+(7)Other",,
+TQ2D_7,"2.가까운 생활권 이동(약 2-4km)-Q4.[AV 선택 이유]2030년 조건에서 자율주행차를 선택한 경우, 선택할 때 고려한 요인을 최대 3개까지 선택해 주세요.-기타내용",Nearby activity-area trip (approx. 2-4 km) - Q4. Other text for factors considered when choosing driverless AV,,,,
+Q2E,"2.가까운 생활권 이동(약 2-4km)-Q5.[이용일수]자율주행차를 선택한 경우, 비슷한 평일 통행 5일 중 며칠 이용할 것 같습니까?","Nearby activity-area trip (approx. 2-4 km) - Q5. If choosing driverless AV, expected number of weekdays used out of five similar weekday trips","(1)1일
+(2)2일
+(3)3일
+(4)4일
+(5)5일","(1)1 day(s)
+(2)2 day(s)
+(3)3 day(s)
+(4)4 day(s)
+(5)5 day(s)",,
+Q3A,3.인접 생활권 이동(약 4-7km)-Q1.2026년 현재 시점(자율주행차 없음) 이용수단,Adjacent activity-area trip (approx. 4-7 km) - Q1. Mode used under the 2026 current condition (without driverless AV),"(1)대중교통
+(2)일반자동차
+(3)개인형 이동수단
+(4)도보","(1)Public transit
+(2)General car
+(3)Personal mobility
+(4)Walking",,
+Q3B_1,3.인접 생활권 이동(약 4-7km)-Q2.[고려요인]위 표에서 선택한 수단을 고를 때 고려한 요인을 최대 3개까지 선택해 주세요.-1순위,"Adjacent activity-area trip (approx. 4-7 km) - Q2. Factors considered when choosing the selected mode, up to three factors - rank 1","(1)시간
+(2)비용
+(3)대기·접근·환승
+(4)혼잡·쾌적성
+(5)운전·주차·피로 부담
+(6)익숙한 수단
+(7)기타","(1)Time
+(2)Cost
+(3)Waiting/access/transfers
+(4)Crowding/comfort
+(5)Driving/parking/fatigue burden
+(6)Familiar mode
+(7)Other",,
+Q3B_2,3.인접 생활권 이동(약 4-7km)-Q2.[고려요인]위 표에서 선택한 수단을 고를 때 고려한 요인을 최대 3개까지 선택해 주세요.-2순위,"Adjacent activity-area trip (approx. 4-7 km) - Q2. Factors considered when choosing the selected mode, up to three factors - rank 2","(1)시간
+(2)비용
+(3)대기·접근·환승
+(4)혼잡·쾌적성
+(5)운전·주차·피로 부담
+(6)익숙한 수단
+(7)기타","(1)Time
+(2)Cost
+(3)Waiting/access/transfers
+(4)Crowding/comfort
+(5)Driving/parking/fatigue burden
+(6)Familiar mode
+(7)Other",,
+Q3B_3,3.인접 생활권 이동(약 4-7km)-Q2.[고려요인]위 표에서 선택한 수단을 고를 때 고려한 요인을 최대 3개까지 선택해 주세요.-3순위,"Adjacent activity-area trip (approx. 4-7 km) - Q2. Factors considered when choosing the selected mode, up to three factors - rank 3","(1)시간
+(2)비용
+(3)대기·접근·환승
+(4)혼잡·쾌적성
+(5)운전·주차·피로 부담
+(6)익숙한 수단
+(7)기타","(1)Time
+(2)Cost
+(3)Waiting/access/transfers
+(4)Crowding/comfort
+(5)Driving/parking/fatigue burden
+(6)Familiar mode
+(7)Other",,
+TQ3B_7,3.인접 생활권 이동(약 4-7km)-Q2.[고려요인]위 표에서 선택한 수단을 고를 때 고려한 요인을 최대 3개까지 선택해 주세요.-기타내용,Adjacent activity-area trip (approx. 4-7 km) - Q2. Other text for factors considered,,,,
+Q3C,3.인접 생활권 이동(약 4-7km)-Q3.2030년 미래 시점(자율주행 호출 서비스 도입)이용수단,Adjacent activity-area trip (approx. 4-7 km) - Q3. Mode used under the 2030 future condition (with driverless AV ride-hailing),"(1)대중교통
+(2)일반자동차
+(3)개인형 이동수단
+(4)도보
+(5)자율주행차(호출형)","(1)Public transit
+(2)General car
+(3)Personal mobility
+(4)Walking
+(5)Driverless AV ride-hailing",,
+Q3D_1,"3.인접 생활권 이동(약 4-7km)-Q4.[AV 선택 이유]2030년 조건에서 자율주행차를 선택한 경우, 선택할 때 고려한 요인을 최대 3개까지 선택해 주세요.-1순위","Adjacent activity-area trip (approx. 4-7 km) - Q4. Factors considered when choosing driverless AV under the 2030 condition, up to three factors - rank 1","(1)시간
+(2)비용
+(3)운전·주차 부담
+(4)이동 중 휴식·업무
+(5)안정성
+(6)새 서비스 호기심
+(7)기타","(1)Time
+(2)Cost
+(3)Driving/parking burden
+(4)Rest/work during the trip
+(5)Service stability
+(6)Curiosity about a new service
+(7)Other",,
+Q3D_2,"3.인접 생활권 이동(약 4-7km)-Q4.[AV 선택 이유]2030년 조건에서 자율주행차를 선택한 경우, 선택할 때 고려한 요인을 최대 3개까지 선택해 주세요.-2순위","Adjacent activity-area trip (approx. 4-7 km) - Q4. Factors considered when choosing driverless AV under the 2030 condition, up to three factors - rank 2","(1)시간
+(2)비용
+(3)운전·주차 부담
+(4)이동 중 휴식·업무
+(5)안정성
+(6)새 서비스 호기심
+(7)기타","(1)Time
+(2)Cost
+(3)Driving/parking burden
+(4)Rest/work during the trip
+(5)Service stability
+(6)Curiosity about a new service
+(7)Other",,
+Q3D_3,"3.인접 생활권 이동(약 4-7km)-Q4.[AV 선택 이유]2030년 조건에서 자율주행차를 선택한 경우, 선택할 때 고려한 요인을 최대 3개까지 선택해 주세요.-3순위","Adjacent activity-area trip (approx. 4-7 km) - Q4. Factors considered when choosing driverless AV under the 2030 condition, up to three factors - rank 3","(1)시간
+(2)비용
+(3)운전·주차 부담
+(4)이동 중 휴식·업무
+(5)안정성
+(6)새 서비스 호기심
+(7)기타","(1)Time
+(2)Cost
+(3)Driving/parking burden
+(4)Rest/work during the trip
+(5)Service stability
+(6)Curiosity about a new service
+(7)Other",,
+TQ3D_7,"3.인접 생활권 이동(약 4-7km)-Q4.[AV 선택 이유]2030년 조건에서 자율주행차를 선택한 경우, 선택할 때 고려한 요인을 최대 3개까지 선택해 주세요.-기타내용",Adjacent activity-area trip (approx. 4-7 km) - Q4. Other text for factors considered when choosing driverless AV,,,,
+Q3E,"3.인접 생활권 이동(약 4-7km)-Q5.[이용일수]자율주행차를 선택한 경우, 비슷한 평일 통행 5일 중 며칠 이용할 것 같습니까?","Adjacent activity-area trip (approx. 4-7 km) - Q5. If choosing driverless AV, expected number of weekdays used out of five similar weekday trips","(1)1일
+(2)2일
+(3)3일
+(4)4일
+(5)5일","(1)1 day(s)
+(2)2 day(s)
+(3)3 day(s)
+(4)4 day(s)
+(5)5 day(s)",,
+Q4A,4.서울 시내 중거리 이동(약 7-13km)-Q1.2026년 현재 시점(자율주행차 없음) 이용수단,Medium-distance trip within Seoul (approx. 7-13 km) - Q1. Mode used under the 2026 current condition (without driverless AV),"(1)대중교통
+(2)일반자동차
+(3)개인형 이동수단","(1)Public transit
+(2)General car
+(3)Personal mobility",,
+Q4B_1,4.서울 시내 중거리 이동(약 7-13km)-Q2.[고려요인]위 표에서 선택한 수단을 고를 때 고려한 요인을 최대 3개까지 선택해 주세요.-1순위,"Medium-distance trip within Seoul (approx. 7-13 km) - Q2. Factors considered when choosing the selected mode, up to three factors - rank 1","(1)시간
+(2)비용
+(3)대기·접근·환승
+(4)혼잡·쾌적성
+(5)운전·주차·피로 부담
+(6)익숙한 수단
+(7)기타","(1)Time
+(2)Cost
+(3)Waiting/access/transfers
+(4)Crowding/comfort
+(5)Driving/parking/fatigue burden
+(6)Familiar mode
+(7)Other",,
+Q4B_2,4.서울 시내 중거리 이동(약 7-13km)-Q2.[고려요인]위 표에서 선택한 수단을 고를 때 고려한 요인을 최대 3개까지 선택해 주세요.-2순위,"Medium-distance trip within Seoul (approx. 7-13 km) - Q2. Factors considered when choosing the selected mode, up to three factors - rank 2","(1)시간
+(2)비용
+(3)대기·접근·환승
+(4)혼잡·쾌적성
+(5)운전·주차·피로 부담
+(6)익숙한 수단
+(7)기타","(1)Time
+(2)Cost
+(3)Waiting/access/transfers
+(4)Crowding/comfort
+(5)Driving/parking/fatigue burden
+(6)Familiar mode
+(7)Other",,
+Q4B_3,4.서울 시내 중거리 이동(약 7-13km)-Q2.[고려요인]위 표에서 선택한 수단을 고를 때 고려한 요인을 최대 3개까지 선택해 주세요.-3순위,"Medium-distance trip within Seoul (approx. 7-13 km) - Q2. Factors considered when choosing the selected mode, up to three factors - rank 3","(1)시간
+(2)비용
+(3)대기·접근·환승
+(4)혼잡·쾌적성
+(5)운전·주차·피로 부담
+(6)익숙한 수단
+(7)기타","(1)Time
+(2)Cost
+(3)Waiting/access/transfers
+(4)Crowding/comfort
+(5)Driving/parking/fatigue burden
+(6)Familiar mode
+(7)Other",,
+TQ4B_7,4.서울 시내 중거리 이동(약 7-13km)-Q2.[고려요인]위 표에서 선택한 수단을 고를 때 고려한 요인을 최대 3개까지 선택해 주세요.-기타내용,Medium-distance trip within Seoul (approx. 7-13 km) - Q2. Other text for factors considered,,,,
+Q4C,4.서울 시내 중거리 이동(약 7-13km)-Q3.2030년 미래 시점(자율주행 호출 서비스 도입)이용수단,Medium-distance trip within Seoul (approx. 7-13 km) - Q3. Mode used under the 2030 future condition (with driverless AV ride-hailing),"(1)대중교통
+(2)일반자동차
+(3)개인형 이동수단
+(5)자율주행차(호출형)","(1)Public transit
+(2)General car
+(3)Personal mobility
+(5)Driverless AV ride-hailing",,
+Q4D_1,"4.서울 시내 중거리 이동(약 7-13km)-Q4.[AV 선택 이유]2030년 조건에서 자율주행차를 선택한 경우, 선택할 때 고려한 요인을 최대 3개까지 선택해 주세요.-1순위","Medium-distance trip within Seoul (approx. 7-13 km) - Q4. Factors considered when choosing driverless AV under the 2030 condition, up to three factors - rank 1","(1)시간
+(2)비용
+(3)운전·주차 부담
+(4)이동 중 휴식·업무
+(5)안정성
+(6)새 서비스 호기심
+(7)기타","(1)Time
+(2)Cost
+(3)Driving/parking burden
+(4)Rest/work during the trip
+(5)Service stability
+(6)Curiosity about a new service
+(7)Other",,
+Q4D_2,"4.서울 시내 중거리 이동(약 7-13km)-Q4.[AV 선택 이유]2030년 조건에서 자율주행차를 선택한 경우, 선택할 때 고려한 요인을 최대 3개까지 선택해 주세요.-2순위","Medium-distance trip within Seoul (approx. 7-13 km) - Q4. Factors considered when choosing driverless AV under the 2030 condition, up to three factors - rank 2","(1)시간
+(2)비용
+(3)운전·주차 부담
+(4)이동 중 휴식·업무
+(5)안정성
+(6)새 서비스 호기심
+(7)기타","(1)Time
+(2)Cost
+(3)Driving/parking burden
+(4)Rest/work during the trip
+(5)Service stability
+(6)Curiosity about a new service
+(7)Other",,
+Q4D_3,"4.서울 시내 중거리 이동(약 7-13km)-Q4.[AV 선택 이유]2030년 조건에서 자율주행차를 선택한 경우, 선택할 때 고려한 요인을 최대 3개까지 선택해 주세요.-3순위","Medium-distance trip within Seoul (approx. 7-13 km) - Q4. Factors considered when choosing driverless AV under the 2030 condition, up to three factors - rank 3","(1)시간
+(2)비용
+(3)운전·주차 부담
+(4)이동 중 휴식·업무
+(5)안정성
+(6)새 서비스 호기심
+(7)기타","(1)Time
+(2)Cost
+(3)Driving/parking burden
+(4)Rest/work during the trip
+(5)Service stability
+(6)Curiosity about a new service
+(7)Other",,
+TQ4D_7,"4.서울 시내 중거리 이동(약 7-13km)-Q4.[AV 선택 이유]2030년 조건에서 자율주행차를 선택한 경우, 선택할 때 고려한 요인을 최대 3개까지 선택해 주세요.-기타내용",Medium-distance trip within Seoul (approx. 7-13 km) - Q4. Other text for factors considered when choosing driverless AV,,,,
+Q4E,"4.서울 시내 중거리 이동(약 7-13km)-Q5.[이용일수]자율주행차를 선택한 경우, 비슷한 평일 통행 5일 중 며칠 이용할 것 같습니까?","Medium-distance trip within Seoul (approx. 7-13 km) - Q5. If choosing driverless AV, expected number of weekdays used out of five similar weekday trips","(1)1일
+(2)2일
+(3)3일
+(4)4일
+(5)5일","(1)1 day(s)
+(2)2 day(s)
+(3)3 day(s)
+(4)4 day(s)
+(5)5 day(s)",,
+Q5A,5.수도권 장거리 이동(약 13-25km)-Q1.2026년 현재 시점(자율주행차 없음) 이용수단,Long-distance trip in the metropolitan area (approx. 13-25 km) - Q1. Mode used under the 2026 current condition (without driverless AV),"(1)대중교통
+(2)일반자동차","(1)Public transit
+(2)General car",,
+Q5B_1,5.수도권 장거리 이동(약 13-25km)-Q2.[고려요인]위 표에서 선택한 수단을 고를 때 고려한 요인을 최대 3개까지 선택해 주세요.-1순위,"Long-distance trip in the metropolitan area (approx. 13-25 km) - Q2. Factors considered when choosing the selected mode, up to three factors - rank 1","(1)시간
+(2)비용
+(3)대기·접근·환승
+(4)혼잡·쾌적성
+(5)운전·주차·피로 부담
+(6)익숙한 수단
+(7)기타","(1)Time
+(2)Cost
+(3)Waiting/access/transfers
+(4)Crowding/comfort
+(5)Driving/parking/fatigue burden
+(6)Familiar mode
+(7)Other",,
+Q5B_2,5.수도권 장거리 이동(약 13-25km)-Q2.[고려요인]위 표에서 선택한 수단을 고를 때 고려한 요인을 최대 3개까지 선택해 주세요.-2순위,"Long-distance trip in the metropolitan area (approx. 13-25 km) - Q2. Factors considered when choosing the selected mode, up to three factors - rank 2","(1)시간
+(2)비용
+(3)대기·접근·환승
+(4)혼잡·쾌적성
+(5)운전·주차·피로 부담
+(6)익숙한 수단
+(7)기타","(1)Time
+(2)Cost
+(3)Waiting/access/transfers
+(4)Crowding/comfort
+(5)Driving/parking/fatigue burden
+(6)Familiar mode
+(7)Other",,
+Q5B_3,5.수도권 장거리 이동(약 13-25km)-Q2.[고려요인]위 표에서 선택한 수단을 고를 때 고려한 요인을 최대 3개까지 선택해 주세요.-3순위,"Long-distance trip in the metropolitan area (approx. 13-25 km) - Q2. Factors considered when choosing the selected mode, up to three factors - rank 3","(1)시간
+(2)비용
+(3)대기·접근·환승
+(4)혼잡·쾌적성
+(5)운전·주차·피로 부담
+(6)익숙한 수단
+(7)기타","(1)Time
+(2)Cost
+(3)Waiting/access/transfers
+(4)Crowding/comfort
+(5)Driving/parking/fatigue burden
+(6)Familiar mode
+(7)Other",,
+TQ5B_7,5.수도권 장거리 이동(약 13-25km)-Q2.[고려요인]위 표에서 선택한 수단을 고를 때 고려한 요인을 최대 3개까지 선택해 주세요.-기타내용,Long-distance trip in the metropolitan area (approx. 13-25 km) - Q2. Other text for factors considered,,,,
+Q5C,5.수도권 장거리 이동(약 13-25km)-Q3.2030년 미래 시점(자율주행 호출 서비스 도입)이용수단,Long-distance trip in the metropolitan area (approx. 13-25 km) - Q3. Mode used under the 2030 future condition (with driverless AV ride-hailing),"(1)대중교통
+(2)일반자동차
+(5)자율주행차(호출형)","(1)Public transit
+(2)General car
+(5)Driverless AV ride-hailing",,
+Q5D_1,"5.수도권 장거리 이동(약 13-25km)-Q4.[AV 선택 이유]2030년 조건에서 자율주행차를 선택한 경우, 선택할 때 고려한 요인을 최대 3개까지 선택해 주세요.-1순위","Long-distance trip in the metropolitan area (approx. 13-25 km) - Q4. Factors considered when choosing driverless AV under the 2030 condition, up to three factors - rank 1","(1)시간
+(2)비용
+(3)운전·주차 부담
+(4)이동 중 휴식·업무
+(5)안정성
+(6)새 서비스 호기심
+(7)기타","(1)Time
+(2)Cost
+(3)Driving/parking burden
+(4)Rest/work during the trip
+(5)Service stability
+(6)Curiosity about a new service
+(7)Other",,
+Q5D_2,"5.수도권 장거리 이동(약 13-25km)-Q4.[AV 선택 이유]2030년 조건에서 자율주행차를 선택한 경우, 선택할 때 고려한 요인을 최대 3개까지 선택해 주세요.-2순위","Long-distance trip in the metropolitan area (approx. 13-25 km) - Q4. Factors considered when choosing driverless AV under the 2030 condition, up to three factors - rank 2","(1)시간
+(2)비용
+(3)운전·주차 부담
+(4)이동 중 휴식·업무
+(5)안정성
+(6)새 서비스 호기심
+(7)기타","(1)Time
+(2)Cost
+(3)Driving/parking burden
+(4)Rest/work during the trip
+(5)Service stability
+(6)Curiosity about a new service
+(7)Other",,
+Q5D_3,"5.수도권 장거리 이동(약 13-25km)-Q4.[AV 선택 이유]2030년 조건에서 자율주행차를 선택한 경우, 선택할 때 고려한 요인을 최대 3개까지 선택해 주세요.-3순위","Long-distance trip in the metropolitan area (approx. 13-25 km) - Q4. Factors considered when choosing driverless AV under the 2030 condition, up to three factors - rank 3","(1)시간
+(2)비용
+(3)운전·주차 부담
+(4)이동 중 휴식·업무
+(5)안정성
+(6)새 서비스 호기심
+(7)기타","(1)Time
+(2)Cost
+(3)Driving/parking burden
+(4)Rest/work during the trip
+(5)Service stability
+(6)Curiosity about a new service
+(7)Other",,
+TQ5D_7,"5.수도권 장거리 이동(약 13-25km)-Q4.[AV 선택 이유]2030년 조건에서 자율주행차를 선택한 경우, 선택할 때 고려한 요인을 최대 3개까지 선택해 주세요.-기타내용",Long-distance trip in the metropolitan area (approx. 13-25 km) - Q4. Other text for factors considered when choosing driverless AV,,,,
+Q5E,"5.수도권 장거리 이동(약 13-25km)-Q5.[이용일수]자율주행차를 선택한 경우, 비슷한 평일 통행 5일 중 며칠 이용할 것 같습니까?","Long-distance trip in the metropolitan area (approx. 13-25 km) - Q5. If choosing driverless AV, expected number of weekdays used out of five similar weekday trips","(1)1일
+(2)2일
+(3)3일
+(4)4일
+(5)5일","(1)1 day(s)
+(2)2 day(s)
+(3)3 day(s)
+(4)4 day(s)
+(5)5 day(s)",,
+Q6A,6.수도권 매우 긴 이동(약 25-50km)-Q1.2026년 현재 시점(자율주행차 없음) 이용수단,Very long metropolitan trip (approx. 25-50 km) - Q1. Mode used under the 2026 current condition (without driverless AV),"(1)대중교통
+(2)일반자동차","(1)Public transit
+(2)General car",,
+Q6B_1,6.수도권 매우 긴 이동(약 25-50km)-Q2.[고려요인]위 표에서 선택한 수단을 고를 때 고려한 요인을 최대 3개까지 선택해 주세요.-1순위,"Very long metropolitan trip (approx. 25-50 km) - Q2. Factors considered when choosing the selected mode, up to three factors - rank 1","(1)시간
+(2)비용
+(3)대기·접근·환승
+(4)혼잡·쾌적성
+(5)운전·주차·피로 부담
+(6)익숙한 수단
+(7)기타","(1)Time
+(2)Cost
+(3)Waiting/access/transfers
+(4)Crowding/comfort
+(5)Driving/parking/fatigue burden
+(6)Familiar mode
+(7)Other",,
+Q6B_2,6.수도권 매우 긴 이동(약 25-50km)-Q2.[고려요인]위 표에서 선택한 수단을 고를 때 고려한 요인을 최대 3개까지 선택해 주세요.-2순위,"Very long metropolitan trip (approx. 25-50 km) - Q2. Factors considered when choosing the selected mode, up to three factors - rank 2","(1)시간
+(2)비용
+(3)대기·접근·환승
+(4)혼잡·쾌적성
+(5)운전·주차·피로 부담
+(6)익숙한 수단
+(7)기타","(1)Time
+(2)Cost
+(3)Waiting/access/transfers
+(4)Crowding/comfort
+(5)Driving/parking/fatigue burden
+(6)Familiar mode
+(7)Other",,
+Q6B_3,6.수도권 매우 긴 이동(약 25-50km)-Q2.[고려요인]위 표에서 선택한 수단을 고를 때 고려한 요인을 최대 3개까지 선택해 주세요.-3순위,"Very long metropolitan trip (approx. 25-50 km) - Q2. Factors considered when choosing the selected mode, up to three factors - rank 3","(1)시간
+(2)비용
+(3)대기·접근·환승
+(4)혼잡·쾌적성
+(5)운전·주차·피로 부담
+(6)익숙한 수단
+(7)기타","(1)Time
+(2)Cost
+(3)Waiting/access/transfers
+(4)Crowding/comfort
+(5)Driving/parking/fatigue burden
+(6)Familiar mode
+(7)Other",,
+TQ6B_7,6.수도권 매우 긴 이동(약 25-50km)-Q2.[고려요인]위 표에서 선택한 수단을 고를 때 고려한 요인을 최대 3개까지 선택해 주세요.-기타내용,Very long metropolitan trip (approx. 25-50 km) - Q2. Other text for factors considered,,,,
+Q6C,6.수도권 매우 긴 이동(약 25-50km)-Q3.2030년 미래 시점(자율주행 호출 서비스 도입)이용수단,Very long metropolitan trip (approx. 25-50 km) - Q3. Mode used under the 2030 future condition (with driverless AV ride-hailing),"(1)대중교통
+(2)일반자동차
+(5)자율주행차(호출형)","(1)Public transit
+(2)General car
+(5)Driverless AV ride-hailing",,
+Q6D_1,"6.수도권 매우 긴 이동(약 25-50km)-Q4.[AV 선택 이유]2030년 조건에서 자율주행차를 선택한 경우, 선택할 때 고려한 요인을 최대 3개까지 선택해 주세요.-1순위","Very long metropolitan trip (approx. 25-50 km) - Q4. Factors considered when choosing driverless AV under the 2030 condition, up to three factors - rank 1","(1)시간
+(2)비용
+(3)운전·주차 부담
+(4)이동 중 휴식·업무
+(5)안정성
+(6)새 서비스 호기심
+(7)기타","(1)Time
+(2)Cost
+(3)Driving/parking burden
+(4)Rest/work during the trip
+(5)Service stability
+(6)Curiosity about a new service
+(7)Other",,
+Q6D_2,"6.수도권 매우 긴 이동(약 25-50km)-Q4.[AV 선택 이유]2030년 조건에서 자율주행차를 선택한 경우, 선택할 때 고려한 요인을 최대 3개까지 선택해 주세요.-2순위","Very long metropolitan trip (approx. 25-50 km) - Q4. Factors considered when choosing driverless AV under the 2030 condition, up to three factors - rank 2","(1)시간
+(2)비용
+(3)운전·주차 부담
+(4)이동 중 휴식·업무
+(5)안정성
+(6)새 서비스 호기심
+(7)기타","(1)Time
+(2)Cost
+(3)Driving/parking burden
+(4)Rest/work during the trip
+(5)Service stability
+(6)Curiosity about a new service
+(7)Other",,
+Q6D_3,"6.수도권 매우 긴 이동(약 25-50km)-Q4.[AV 선택 이유]2030년 조건에서 자율주행차를 선택한 경우, 선택할 때 고려한 요인을 최대 3개까지 선택해 주세요.-3순위","Very long metropolitan trip (approx. 25-50 km) - Q4. Factors considered when choosing driverless AV under the 2030 condition, up to three factors - rank 3","(1)시간
+(2)비용
+(3)운전·주차 부담
+(4)이동 중 휴식·업무
+(5)안정성
+(6)새 서비스 호기심
+(7)기타","(1)Time
+(2)Cost
+(3)Driving/parking burden
+(4)Rest/work during the trip
+(5)Service stability
+(6)Curiosity about a new service
+(7)Other",,
+TQ6D_7,"6.수도권 매우 긴 이동(약 25-50km)-Q4.[AV 선택 이유]2030년 조건에서 자율주행차를 선택한 경우, 선택할 때 고려한 요인을 최대 3개까지 선택해 주세요.-기타내용",Very long metropolitan trip (approx. 25-50 km) - Q4. Other text for factors considered when choosing driverless AV,,,,
+Q6E,"6.수도권 매우 긴 이동(약 25-50km)-Q5.[이용일수]자율주행차를 선택한 경우, 비슷한 평일 통행 5일 중 며칠 이용할 것 같습니까?","Very long metropolitan trip (approx. 25-50 km) - Q5. If choosing driverless AV, expected number of weekdays used out of five similar weekday trips","(1)1일
+(2)2일
+(3)3일
+(4)4일
+(5)5일","(1)1 day(s)
+(2)2 day(s)
+(3)3 day(s)
+(4)4 day(s)
+(5)5 day(s)",,
+A1_1,A.아래 문항은 모두 객관식 단일선택 문항입니다.-A1.나는 새로운 교통수단이나 모빌리티 서비스를 비교적 쉽게 시도하는 편이다.,A1. I tend to try new transportation modes or mobility services relatively easily.,"(1)①전혀 그렇지 않다
+(2)②그렇지 않다
+(3)③보통이다
+(4)④그렇다
+(5)⑤매우 그렇다","(1)Strongly disagree
+(2)Disagree
+(3)Neutral
+(4)Agree
+(5)Strongly agree",,
+A1_2,A.아래 문항은 모두 객관식 단일선택 문항입니다.-A2.이동할 때 비용보다 시간을 줄이는 것을 더 중요하게 생각한다.,"A2. When traveling, I consider reducing travel time more important than cost.","(1)①전혀 그렇지 않다
+(2)②그렇지 않다
+(3)③보통이다
+(4)④그렇다
+(5)⑤매우 그렇다","(1)Strongly disagree
+(2)Disagree
+(3)Neutral
+(4)Agree
+(5)Strongly agree",,
+A1_3,A.아래 문항은 모두 객관식 단일선택 문항입니다.-A3.이동시간이 조금 늘어나더라도 비용이 낮으면 선택할 의향이 있다.,A3. I am willing to choose a lower-cost option even if travel time increases slightly.,"(1)①전혀 그렇지 않다
+(2)②그렇지 않다
+(3)③보통이다
+(4)④그렇다
+(5)⑤매우 그렇다","(1)Strongly disagree
+(2)Disagree
+(3)Neutral
+(4)Agree
+(5)Strongly agree",,
+A1_4,"A.아래 문항은 모두 객관식 단일선택 문항입니다.-A4.가능하면 환승, 대기, 혼잡이 적은 수단을 선호한다.","A4. If possible, I prefer modes with less transfer, waiting, and crowding.","(1)①전혀 그렇지 않다
+(2)②그렇지 않다
+(3)③보통이다
+(4)④그렇다
+(5)⑤매우 그렇다","(1)Strongly disagree
+(2)Disagree
+(3)Neutral
+(4)Agree
+(5)Strongly agree",,
+A1_5,A.아래 문항은 모두 객관식 단일선택 문항입니다.-A5.자율주행차도 일반 자동차만큼 안전하게 운행될 수 있다고 생각한다.,A5. I think driverless AVs can operate as safely as conventional cars.,"(1)①전혀 그렇지 않다
+(2)②그렇지 않다
+(3)③보통이다
+(4)④그렇다
+(5)⑤매우 그렇다","(1)Strongly disagree
+(2)Disagree
+(3)Neutral
+(4)Agree
+(5)Strongly agree",,
+A1_6,A.아래 문항은 모두 객관식 단일선택 문항입니다.-A6.운전자가 없는 자율주행차를 혼자 이용하는 것은 불안하게 느껴진다.,A6. I would feel uneasy using a driverless AV alone.,"(1)①전혀 그렇지 않다
+(2)②그렇지 않다
+(3)③보통이다
+(4)④그렇다
+(5)⑤매우 그렇다","(1)Strongly disagree
+(2)Disagree
+(3)Neutral
+(4)Agree
+(5)Strongly agree",,
+A1_7,"A.아래 문항은 모두 객관식 단일선택 문항입니다.-A7.자율주행차 안에서는 직접 운전할 때보다 휴식, 독서, 업무 등을 하기 쉬울 것 같다.","A7. In a driverless AV, it would be easier to rest, read, work, or do other activities than when driving myself.","(1)①전혀 그렇지 않다
+(2)②그렇지 않다
+(3)③보통이다
+(4)④그렇다
+(5)⑤매우 그렇다","(1)Strongly disagree
+(2)Disagree
+(3)Neutral
+(4)Agree
+(5)Strongly agree",,
+A1_8,A.아래 문항은 모두 객관식 단일선택 문항입니다.-A8.자율주행 호출 서비스가 도입되면 대중교통 이용을 줄일 수도 있다고 생각한다.,"A8. If driverless AV ride-hailing is introduced, I may reduce my use of public transit.","(1)①전혀 그렇지 않다
+(2)②그렇지 않다
+(3)③보통이다
+(4)④그렇다
+(5)⑤매우 그렇다","(1)Strongly disagree
+(2)Disagree
+(3)Neutral
+(4)Agree
+(5)Strongly agree",,
+A1_9,A.아래 문항은 모두 객관식 단일선택 문항입니다.-A9.자율주행 호출 서비스가 보편화되면 자가용을 보유해야 할 필요성이 줄어들 수 있다고 생각한다.,"A9. If driverless AV ride-hailing becomes widespread, the need to own a private car may decrease.","(1)①전혀 그렇지 않다
+(2)②그렇지 않다
+(3)③보통이다
+(4)④그렇다
+(5)⑤매우 그렇다","(1)Strongly disagree
+(2)Disagree
+(3)Neutral
+(4)Agree
+(5)Strongly agree",,
+A1_10,A.아래 문항은 모두 객관식 단일선택 문항입니다.-A10.자율주행 호출 서비스 이용 시 나의 위치정보나 이동정보가 수집되는 것이 걱정된다.,A10. I am concerned that my location or trip information may be collected when using driverless AV ride-hailing.,"(1)①전혀 그렇지 않다
+(2)②그렇지 않다
+(3)③보통이다
+(4)④그렇다
+(5)⑤매우 그렇다","(1)Strongly disagree
+(2)Disagree
+(3)Neutral
+(4)Agree
+(5)Strongly agree",,
+A1_11,A.아래 문항은 모두 객관식 단일선택 문항입니다.-품질확인,A. Quality-check item,"(1)①전혀 그렇지 않다
+(2)②그렇지 않다
+(3)③보통이다
+(4)④그렇다
+(5)⑤매우 그렇다","(1)Strongly disagree
+(2)Disagree
+(3)Neutral
+(4)Agree
+(5)Strongly agree",,
+T1,"T1.[기존 택시·호출차량 이용 변화]운전자 없는 자율주행 호출서비스가 충분히 안정적으로 운영된다면, 기존 택시·호출차량 이용을 줄일 것 같습니까?","T1. [Change in use of existing taxi/ride-hailing] If driverless AV ride-hailing operated sufficiently reliably, do you think you would reduce your use of existing taxi/ride-hailing services?","(1)①전혀 그렇지 않다
+(2)②그렇지 않다
+(3)③보통이다
+(4)④그렇다
+(5)⑤매우 그렇다","(1)Strongly disagree
+(2)Disagree
+(3)Neutral
+(4)Agree
+(5)Strongly agree",,
+T2,"T2.[택시 대비 요금 수용 수준]본인이 알고 있는 비슷한 거리의 택시·호출차량 요금을 떠올렸을 때, 자율주행 호출서비스 요금이 택시요금 대비 어느 정도라면 이용할 의향이 있습니까?","T2. [Acceptable fare level relative to taxi] Thinking of taxi/ride-hailing fares for a similar distance, at what fare level relative to taxi fare would you be willing to use driverless AV ride-hailing?","(1)30% 수준
+(2)50% 수준
+(3)70% 수준
+(4)100% 수준
+(5)택시보다 비싸도 이용
+(6)이용 의향 없음","(1)30% of taxi fare
+(2)50% of taxi fare
+(3)70% of taxi fare
+(4)100% of taxi fare
+(5)Would use even if more expensive than taxi
+(6)No intention to use",,
+T3,"T3.[상생비용 포함 시 요금 인상 수용]앞의 선택표에서 보았던 자율주행차 요금을 기준으로 생각했을 때, 본인이 실제로 이용한다면 그 요금보다 얼마나 비싸져도 이용할 의향이 있으십니까?","T3. [Acceptance of fare increase including transition/cooperation costs] Based on the driverless AV fare shown in the choice tables, how much higher could the fare be while you would still be willing to use it?","(1)앞의 요금이어도 이용 의향 없음
+(2)더 비싸지면 이용하지 않음
+(3)10% 정도 인상까지 가능
+(4)20% 정도 인상까지 가능
+(5)30% 정도 인상까지 가능
+(6)50% 이상 인상되어도 가능","(1)No intention to use even at the fare shown earlier
+(2)Would not use if the fare increases
+(3)Would accept up to about a 10% increase
+(4)Would accept up to about a 20% increase
+(5)Would accept up to about a 30% increase
+(6)Would accept an increase of 50% or more",,
+T4,"T4.[사회적 갈등 발생 시 이용 의향]자율주행 호출서비스가 기존 택시업계와 충분한 협의 없이 도입되어 사회적 논란이 커진다면, 이용을 꺼릴 것 같습니까?","T4. [Willingness to use under social conflict] If driverless AV ride-hailing were introduced without sufficient consultation with the existing taxi industry and social controversy grew, I would hesitate to use it.","(1)①전혀 그렇지 않다
+(2)②그렇지 않다
+(3)③보통이다
+(4)④그렇다
+(5)⑤매우 그렇다","(1)Strongly disagree
+(2)Disagree
+(3)Neutral
+(4)Agree
+(5)Strongly agree",,
+S1,S1.[공유형 이용 의향]비슷한 방향으로 가는 다른 승객과 함께 타는 공유형 자율주행 호출서비스가 제공된다면 이용할 의향이 있으십니까?,S1. [Willingness to use shared AV] Would you be willing to use shared driverless AV ride-hailing with other passengers traveling in a similar direction?,"(1)①전혀 없음
+(2)②별로 없음
+(3)③보통
+(4)④있음
+(5)⑤매우 있음","(1)No intention at all
+(2)Low intention
+(3)Neutral
+(4)Some intention
+(5)Strong intention",,
+S2,"S2.[요금 할인과 추가시간 수용]단독 호출형 자율주행차보다 요금이 저렴하다면, 공유형 자율주행 호출서비스를 어느 조건까지 이용할 수 있습니까?","S2. [Fare discount and extra time acceptance] If shared driverless AV ride-hailing were cheaper than a private ride-hailing AV, under what conditions would you use it?","(1)요금이 저렴해도 공유형은 이용하지 않음
+(2)약 20% 저렴하고 추가시간이 5분 이내라면 이용
+(3)약 30% 저렴하고 추가시간이 10분 이내라면 이용
+(4)약 40% 저렴하고 추가시간이 15분 이내라면 이용
+(5)조건과 관계없이 공유형도 이용할 의향 있음","(1)Would not use shared service even if cheaper
+(2)Would use if about 20% cheaper and extra time is within 5 minutes
+(3)Would use if about 30% cheaper and extra time is within 10 minutes
+(4)Would use if about 40% cheaper and extra time is within 15 minutes
+(5)Would use shared service regardless of conditions",,
+S3_1,S3.[공유형 우려 요인]공유형 자율주행 호출서비스를 이용할 때 걱정되는 점은 무엇입니까?-1,S3. [Concerns about shared AV] Concern about using shared driverless AV ride-hailing - response slot 1,"(1)낯선 사람과 함께 타는 부담
+(2)목적지까지 돌아가거나 시간이 늘어날 가능성
+(3)안전에 대한 걱정
+(4)개인정보·위치정보 노출 우려
+(5)차량 내부 쾌적성
+(6)특별히 걱정되는 점 없음
+(7)기타","(1)Discomfort riding with strangers
+(2)Possibility of detours or longer travel time
+(3)Safety concerns
+(4)Privacy/location-data exposure concerns
+(5)In-vehicle comfort
+(6)No particular concern
+(7)Other",,
+S3_2,S3.[공유형 우려 요인]공유형 자율주행 호출서비스를 이용할 때 걱정되는 점은 무엇입니까?-2,S3. [Concerns about shared AV] Concern about using shared driverless AV ride-hailing - response slot 2,"(1)낯선 사람과 함께 타는 부담
+(2)목적지까지 돌아가거나 시간이 늘어날 가능성
+(3)안전에 대한 걱정
+(4)개인정보·위치정보 노출 우려
+(5)차량 내부 쾌적성
+(6)특별히 걱정되는 점 없음
+(7)기타","(1)Discomfort riding with strangers
+(2)Possibility of detours or longer travel time
+(3)Safety concerns
+(4)Privacy/location-data exposure concerns
+(5)In-vehicle comfort
+(6)No particular concern
+(7)Other",,
+S3_3,S3.[공유형 우려 요인]공유형 자율주행 호출서비스를 이용할 때 걱정되는 점은 무엇입니까?-3,S3. [Concerns about shared AV] Concern about using shared driverless AV ride-hailing - response slot 3,"(1)낯선 사람과 함께 타는 부담
+(2)목적지까지 돌아가거나 시간이 늘어날 가능성
+(3)안전에 대한 걱정
+(4)개인정보·위치정보 노출 우려
+(5)차량 내부 쾌적성
+(6)특별히 걱정되는 점 없음
+(7)기타","(1)Discomfort riding with strangers
+(2)Possibility of detours or longer travel time
+(3)Safety concerns
+(4)Privacy/location-data exposure concerns
+(5)In-vehicle comfort
+(6)No particular concern
+(7)Other",,
+S3_4,S3.[공유형 우려 요인]공유형 자율주행 호출서비스를 이용할 때 걱정되는 점은 무엇입니까?-4,S3. [Concerns about shared AV] Concern about using shared driverless AV ride-hailing - response slot 4,"(1)낯선 사람과 함께 타는 부담
+(2)목적지까지 돌아가거나 시간이 늘어날 가능성
+(3)안전에 대한 걱정
+(4)개인정보·위치정보 노출 우려
+(5)차량 내부 쾌적성
+(6)특별히 걱정되는 점 없음
+(7)기타","(1)Discomfort riding with strangers
+(2)Possibility of detours or longer travel time
+(3)Safety concerns
+(4)Privacy/location-data exposure concerns
+(5)In-vehicle comfort
+(6)No particular concern
+(7)Other",,
+S3_5,S3.[공유형 우려 요인]공유형 자율주행 호출서비스를 이용할 때 걱정되는 점은 무엇입니까?-5,S3. [Concerns about shared AV] Concern about using shared driverless AV ride-hailing - response slot 5,"(1)낯선 사람과 함께 타는 부담
+(2)목적지까지 돌아가거나 시간이 늘어날 가능성
+(3)안전에 대한 걱정
+(4)개인정보·위치정보 노출 우려
+(5)차량 내부 쾌적성
+(6)특별히 걱정되는 점 없음
+(7)기타","(1)Discomfort riding with strangers
+(2)Possibility of detours or longer travel time
+(3)Safety concerns
+(4)Privacy/location-data exposure concerns
+(5)In-vehicle comfort
+(6)No particular concern
+(7)Other",,
+S3_6,S3.[공유형 우려 요인]공유형 자율주행 호출서비스를 이용할 때 걱정되는 점은 무엇입니까?-6,S3. [Concerns about shared AV] Concern about using shared driverless AV ride-hailing - response slot 6,"(1)낯선 사람과 함께 타는 부담
+(2)목적지까지 돌아가거나 시간이 늘어날 가능성
+(3)안전에 대한 걱정
+(4)개인정보·위치정보 노출 우려
+(5)차량 내부 쾌적성
+(6)특별히 걱정되는 점 없음
+(7)기타","(1)Discomfort riding with strangers
+(2)Possibility of detours or longer travel time
+(3)Safety concerns
+(4)Privacy/location-data exposure concerns
+(5)In-vehicle comfort
+(6)No particular concern
+(7)Other",,
+S3_7,S3.[공유형 우려 요인]공유형 자율주행 호출서비스를 이용할 때 걱정되는 점은 무엇입니까?-7,S3. [Concerns about shared AV] Concern about using shared driverless AV ride-hailing - response slot 7,"(1)낯선 사람과 함께 타는 부담
+(2)목적지까지 돌아가거나 시간이 늘어날 가능성
+(3)안전에 대한 걱정
+(4)개인정보·위치정보 노출 우려
+(5)차량 내부 쾌적성
+(6)특별히 걱정되는 점 없음
+(7)기타","(1)Discomfort riding with strangers
+(2)Possibility of detours or longer travel time
+(3)Safety concerns
+(4)Privacy/location-data exposure concerns
+(5)In-vehicle comfort
+(6)No particular concern
+(7)Other",,
+TS3_7,S3.[공유형 우려 요인]공유형 자율주행 호출서비스를 이용할 때 걱정되는 점은 무엇입니까?-기타내용,S3. Other text for concerns about shared driverless AV ride-hailing,,,,
+D1,D1.[현재 직업]현재 직업은 무엇입니까?,D1. [Current occupation] What is your current occupation?,"(1)학생
+(2)직장인
+(3)자영업
+(4)기타","(1)Student
+(2)Employee
+(3)Self-employed
+(4)Other",,
+TD1_4,D1.[현재 직업]현재 직업은 무엇입니까?-기타내용,D1. Other text for current occupation,,,,
+D2,D2.[최종 학력]최종 학력은 무엇입니까?,D2. [Highest education] What is your highest level of education?,"(1)고졸 졸업 (재학/휴학/중퇴 포함)
+(2)전문대·대학 재학 또는 졸업
+(3)대학원 이상 (석/박사)","(1)High school or lower, including enrolled/on leave/withdrawn
+(2)College/university enrolled or graduated
+(3)Graduate school or higher (master's/doctoral)",,
+D3,D3.[혼인 여부]혼인 여부는 무엇입니까?,D3. [Marital status] What is your marital status?,"(1)미혼
+(2)기혼
+(3)기타(이혼/사별 등)","(1)Never married
+(2)Married
+(3)Other, including divorced/widowed",,
+D4_1,D4.[가구 구성]가구원 수와 18세 미만 자녀 수는 어떻게 됩니까?-가구원 수[단위:명],D4. [Household composition] Number of household members [unit: persons],,,,
+D4_2,D4.[가구 구성]가구원 수와 18세 미만 자녀 수는 어떻게 됩니까?-18세 미만 자녀 수[단위:명],D4. [Household composition] Number of children under age 18 [unit: persons],,,,
+D5,D5.[가구 월평균 소득]가구 월평균 소득(세전)은 어느 구간입니까?,D5. [Monthly household income] What is your household's average monthly income before tax?,"(1)300만원 미만
+(2)300-500만원 미만
+(3)500-700만원 미만
+(4)700만원 이상
+(5)응답하지 않음","(1)Less than KRW 3 million
+(2)KRW 3 million to less than 5 million
+(3)KRW 5 million to less than 7 million
+(4)KRW 7 million or more
+(5)Prefer not to answer",,
+D6,D6.[가구 자동차 보유]가구 자동차 보유 대수는 몇 대입니까?,D6. [Household vehicle ownership] How many cars does your household own?,"(1)0대
+(2)1대
+(3)2대 이상","(1)0 vehicles
+(2)1 vehicle
+(3)2 or more vehicles",,
+D7,D7.[운전면허]운전면허를 보유하고 계십니까?,D7. [Driver's license] Do you have a driver's license?,"(1)예
+(2)아니오","(1)Yes
+(2)No",,
+D8,"D8.[자동차 이용 가능성]귀하는 이동이 필요할 때, 자동차(자차, 택시, 카셰어링 등)를 얼마나 원활하게 이용할 수 있습니까?","D8. [Car access] When you need to travel, how readily can you use a car, including private car, taxi, or car-sharing?","(1)언제든 원활하게 이용 가능
+(2)가끔 이용 가능
+(3)거의 이용 불가
+(4)전혀 이용 불가","(1)Always readily available
+(2)Sometimes available
+(3)Rarely available
+(4)Not available at all",,
+D9,"D9.귀하가 일반 자동차(비자율주행)를 이용할 때, 주로 어떤 방식을 가장 자주 이용하십니까?","D9. When you use a conventional non-autonomous car, which usage pattern do you use most often?","(1)내가 직접 운전하는 편이다
+(2)가족이나 지인이 운전하는 차량에 동승하는 편이다
+(3)직접 운전과 동승을 거의 비슷한 비중으로 이용한다","(1)I usually drive myself
+(2)I usually ride in a vehicle driven by family/acquaintances
+(3)I use self-driving and riding with others in roughly similar proportions",,
+R1,평소 교통수단을 선택할 때 가장 중요하게 생각하는 기준 또는 이번 설문에서 헷갈렸던 점이 있다면 자유롭게 적어 주세요.,"Please freely write the most important criterion when choosing transportation modes, or anything that was confusing in this survey.",,,,
