@@ -13,6 +13,7 @@ This repository contains **code only**. The stated-preference survey data, model
 | `scripts/` | Five-fold (CV5) lane. Tabular candidates (`cv5_tabular*.py`), Qwen 2B SFT fold scoring at BASE and over the 33-condition grid (`cv5_score_fold*.py`, chain launchers `*.ps1`), Qwen 2B zero-shot scoring (`cv5_score_zs*.py`), summaries and score-bank assembly (`cv5_llm_summary.py`, `cv5_scenarios_summary.py`, `build_cv5_*`). |
 | `remote_9b/` | Qwen 9B five-fold scoring scripts that ran on a separate GPU host: SFT fold scoring, zero-shot BASE, and the zero-shot 33-condition grid. Launch wrappers with host-specific settings are omitted. |
 | `neural_lanes/` | The FFNN/DNN redesign lanes (PyTorch, RTX 3080): PR-AUC selection, fitted decision threshold, Platt calibration, nested preprocessing. The configuration fixed from these single-split lanes is the one re-implemented inside the five-fold protocol by `paper_build/CV5_LANE7_GPU_20260908/`. |
+| `codebook/` | `variable_codebook.csv`: the survey variable codebook (variable, Korean/English description, response options, notes). No respondent records. |
 | `paper_build/` | Scripts that compute the manuscript tables and figures from the score banks and write the LaTeX assets: `CV5_PAPER_20260908/` and `CV5_LANE7_GPU_20260908/` (the latter is the version behind the current manuscript), plus the shared support modules in `tools/`. |
 
 ## Environment
@@ -47,7 +48,7 @@ The zero-shot prompt styles are frozen per model size (`zeroshot` for 2B, `ab` w
 
 ## Data availability
 
-The survey microdata (2,178 respondents, Seoul Capital Area) are not distributed with this code. Fold assignments and fitted calibration coefficients are derived from those data and are therefore also not included here; contact the authors for access under the survey's terms.
+The survey microdata (2,178 respondents, Seoul Capital Area) are not distributed with this code. The variable codebook is included at `codebook/variable_codebook.csv` (138 variables; Korean and English variable descriptions and response-option labels, plus notes). Fold assignments and fitted calibration coefficients are derived from the microdata and are therefore not included; contact the authors for access under the survey's terms.
 
 ## Citation
 
