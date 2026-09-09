@@ -1,0 +1,27 @@
+# Versions recorded from the environments that produced the paper (Python 3.13.13).
+# GPU environment (fine-tuning, scoring, neural lanes)
+torch==2.11.0+cu128
+transformers==5.8.0
+peft==0.19.1
+datasets==5.0.1
+scikit-learn==1.9.0
+pandas==3.0.2
+numpy==2.4.3
+scipy==1.18.0
+matplotlib==3.11.1
+Pillow==12.1.1
+PyYAML==6.0.3
+pyarrow
+
+# Tabular candidates
+xgboost==3.0.2          # version recorded in the manuscript appendix; not installed on the archiving machine
+
+# Paper-build environment (tables, figures, PDF checks)
+PyMuPDF==1.27.2.3
+pypdf==6.16.0
+statsmodels            # used by paper_build/*/probability_sensitivity.py and plot_subgroup_reference.py; version not recorded
+
+# Optional. llm_runtime.py falls back to the PyTorch path when absent (the reported runs used the fallback).
+# flash-linear-attention
+# bitsandbytes is required for 4-bit NF4 loading in llm_runtime.load_base
+bitsandbytes
